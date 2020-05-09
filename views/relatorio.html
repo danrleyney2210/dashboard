@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontaweosome/css/all.min.css">
+    <title>DASHBOARD</title>
+</head>
+<body>
+<div class="flex-dashboard">
+       
+    <sidebar>
+        <div class="sidebar-title">
+            <img src="../imagem/core.png" alt="">
+            <h2>New Academy</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <i class="fas fa-laptop-house"></i>
+                    <a href="dashboard.html"> Resumo</a>
+                </li>
+                <li>
+                    <i class="far fa-calendar-alt"></i>
+                    <a href="agenda.html"> Agenda</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <i class="far fa-address-card"></i>
+                    <a href="membros.html"> Membros</a>
+                </li>
+                
+                <li>
+                    <i class="fas fa-chart-line"></i>
+                    <a href="gerenciador.html"> Gerenciador</a>
+                </li>
+                
+                <li>
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <a href="financeiro.html"> Financeiro</a>
+                </li>
+                
+                <li class="selected">
+                    <i class="fas fa-file-medical-alt"></i>
+                    <a href="relatorio.html"> Relatório</a>
+                </li>
+
+            </ul>
+        </div>
+    </sidebar>
+    <main>
+        <header>
+            <a href="dashboard.html"><i class="fas fa-laptop-house"></i> Home</a>
+            <a href="../index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </header>
+        <div class="main-content">
+            <div class="relatorio-parent">
+                <div class="relatorio">
+                    <h2>Relatório - <span>2020</span> </h2>
+                </div>
+            </div>
+                         
+        </div> 
+    </main>
+    
+</div>
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../plugins/fontaweosome/js/all.min.js"></script>
+<script src="../js/ajax.js"></script>
+</body>
+</html>

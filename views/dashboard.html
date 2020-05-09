@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontaweosome/css/all.min.css">
+    <title>DASHBOARD</title>
+</head>
+<body>
+<div class="flex-dashboard">
+       
+    <sidebar>
+        <div class="sidebar-title">
+            <img src="../imagem/core.png" alt="">
+            <h2>New Academy</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="selected">
+                    <i class="fas fa-laptop-house"></i>
+                    <a href="dashboard.html"> Resumo</a>
+                </li>
+                <li>
+                    <i class="far fa-calendar-alt"></i>
+                    <a href="agenda.html"> Agenda</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <i class="far fa-address-card"></i>
+                    <a href="membros.html"> Membros</a>
+                </li>
+                
+                <li>
+                    <i class="fas fa-chart-line"></i>
+                    <a href="gerenciador.html"> Gerenciador</a>
+                </li>
+                
+                <li>
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <a href="financeiro.html"> Financeiro</a>
+                </li>
+                
+                <li>
+                    <i class="fas fa-file-medical-alt"></i>
+                    <a href="relatorio.html"> Relatório</a>
+                </li>
+
+            </ul>
+        </div>
+    </sidebar>
+    <main>
+        <header>
+            <i id="iconMenu" onclick="responsiveSidebar" class="fas fa-bars"></i>
+            <a href="../index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </header>
+        <div class="main-content">
+            <div class="main-content-title">
+                <h2> Resumo Status</h2>
+            </div>
+            <div class="dashboard-content">
+                <div class="dashboard-flex-parent">
+                    <div class="dashboard-box">
+                        <div class="dashboard-box-wrapper">
+                            <div class="box-icon box-membro">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="value">Membros<br>Ativos</div>
+                            <i class="fas fa-chevron-up "></i>
+                            <div class="type ativos">90</div>
+
+                        </div>
+                    </div>
+                    <div class="dashboard-box">
+                        <div class="dashboard-box-wrapper">
+                            <div class="box-icon box-afastados">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="value">Membros <br> Afastados</div>
+                            <i class="fas fa-chevron-down"></i>
+                            <div class="type afastado">67</div>
+
+                        </div>
+                    </div>
+                    <div class="dashboard-box">
+                        <div class="dashboard-box-wrapper">
+                            <div class="box-icon box-jovens">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="value">Jovens <br> Ativos </div>
+                            <i class="fas fa-chevron-up "></i>
+                            <div class="type">40</div>
+
+                        </div>
+                    </div>
+                    <div class="dashboard-box">
+                        <div class="dashboard-box-wrapper">
+                            <div class="box-icon box-mulheres">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="value">Mulheres <br> Ativas </div>
+                            <i class="fas fa-chevron-up "></i>
+                            <div class="type">30</div>
+
+                        </div>
+                    </div>
+                    <div class="dashboard-box">
+                        <div class="dashboard-box-wrapper">
+                            <div class="box-icon box-homens">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="value">Homens <br>Ativos </div>
+                            <i class="fas fa-chevron-up "></i>
+                            <div class="type">20</div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div> 
+
+    
+    </main>
+    
+</div>
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="../plugins/fontaweosome/js/all.min.js"></script>
+<script src="../js/menu.js"></script>
+</body>
+</html>
