@@ -257,3 +257,36 @@ div.type{
 
 
 }
+@media screen and (max-width: 768px){
+    main{
+        display: block;
+        height: 100%;
+        background-color: #f4f4f4;
+        width: calc(100%);
+        z-index: 1;
+        position: relative;
+        
+    }
+    .panel-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+    }
+    .panel-50{
+       width: 100%;
+    }
+    .panel-row button{
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(#6e8efb, #a777e3);
+        color: #fff;
+        font-size: 17px;
+    }
+    .panel-row button:hover{
+        transform: unset;
+    }
+   
+}

@@ -1,6 +1,6 @@
 let content = document.getElementById('ajax-content')
 
-unction fetchContent(el) {
+function fetchContent(el) {
     let view = el.getAttribute('a-view')
     let folder = el.getAttribute('a-folder')
     fetch('/ajax/${folder}/${view}.html')

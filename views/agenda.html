@@ -11,7 +11,7 @@
 <body>
 <div class="flex-dashboard">
        
-    <sidebar>
+    <sidebar id="sidebar">
         <div class="sidebar-title">
             <img src="../imagem/core.png" alt="">
             <h2>New Academy</h2>
@@ -47,12 +47,19 @@
                     <a href="relatorio.html"> Relatório</a>
                 </li>
 
+                <li class="sidebar_logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <a href="../index.html"> Logout</a>
+
+                </li>
+
             </ul>
         </div>
     </sidebar>
-    <main>
+    <main  id="mainContent">
         <header>
-            <a href="dashboard.html"><i class="fas fa-laptop-house"></i> Home</a>
+            <i id="iconMenu" onclick="responsiveSidebar()" class="fas fa-bars"></i>
+           
             <a href="../index.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
         </header>
         <div class="main-content">
@@ -72,6 +79,6 @@
 </div>
 <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="../plugins/fontaweosome/js/all.min.js"></script>
-<script src="../js/ajax.js"></script>
+<script src="../js/menu.js"></script>
 </body>
 </html>

@@ -21,3 +21,12 @@
     font-size: 22px;
     cursor: pointer;
 }
+@media screen and (max-width:768px){
+    .flex-dashboard header a{
+        display: none;
+    }
+    .flex-dashboard header{
+        justify-content: flex-end;
+       
+    }
+}

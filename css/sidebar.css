@@ -66,3 +66,39 @@ div.menu ul li a:hover{
 .selected a{
     color:  #6e8efb !important;
 }
+.sidebar_logout{
+    display: none;
+
+}
+.hide{
+    left: -250px;
+    
+}
+@media screen and (max-width:760px){
+    sidebar{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        transition: all .4s;
+        left: -250px;
+      
+    }
+    .sidebar_logout{
+        display: block;
+    
+    }
+}
+@media screen and (max-width:380px){
+    sidebar{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 2;
+        transition: all .4s;
+        left: -250px;
+        width: 250px;
+      
+    }
+}
+
